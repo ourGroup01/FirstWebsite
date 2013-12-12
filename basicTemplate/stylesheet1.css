@@ -1,0 +1,90 @@
+/*Top Bar*/
+#top{
+height : 7px;
+text-align : right;
+}
+
+/*Company name*/
+#header{
+height : 100px;
+position:relative;
+background-color : #f9f9f9;
+color : #ccc
+}
+
+/*Menu bar*/
+#menu{
+position:relative;
+top : 5px;
+height : 50px;
+}
+
+
+#menubar{
+position : relative;
+top : 0;
+left : 0;
+width : 100%;
+background : #f9f9f9;
+list-style : none;
+margin : 0;
+padding : .3em;
+}
+
+#menubar ul {
+list-style : none;
+margin : 0;
+padding : .3em;
+}
+
+#menubar li{
+float : left;
+margin-right : 5px;
+}
+
+#menubar li a{
+display : block;
+background-color : #f9f9f9;
+border : 1px solid #f9f9f9;
+padding-right : 2em;
+padding-left : 2em;
+}
+
+#menubar li a:hover{
+background-color : #ccc;
+color : #fff;
+text-decoration : none;
+}
+
+#menubar li ul{
+display : none;
+position : relative;
+padding : 0;
+}
+
+#menubar li:hover ul{
+display : block;
+}
+
+/*  //To display the list verticaly
+#menubar li li {
+float : none;
+border : solid 1px #ccc;
+}
+*/
+
+/*Images*/
+
+#image{
+position:relative;
+height : 400px;
+width : 100%;
+}
+
+/*footer css*/
+#footer{
+position:relative;
+background-color:#f9f9f9;
+color : #ccc;
+}
+
